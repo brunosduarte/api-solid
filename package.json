@@ -1,0 +1,23 @@
+{
+  "name": "api-solid",
+  "author": "Bruno S. Duarte",
+  "version": "1.0.0",
+  "description": "gym pass style app",
+  "main": "index.js",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "fastify": "^5.1.0"
+  }
+}
