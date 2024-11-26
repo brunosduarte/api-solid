@@ -21,6 +21,7 @@
 - [ ] The check-in only can be validated by administrators;
 - [ ] The gym place only can be registered by administrators;
 
+
 ## RNFs (Not Functional Requirements)
 
 - [ ] The password of the user must be encrypted;
