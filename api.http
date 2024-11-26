@@ -7,7 +7,7 @@ Content-Type: application/json
 {
   "name":"Bruno S. Duarte",
   "email": "brunosdua@dev.br",
-  "password": "123456"
+  "password": "12345"
 }
 
 ### @queue
