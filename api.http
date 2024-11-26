@@ -1,0 +1,17 @@
+@baseUrl = http://localhost:3333
+
+### Post
+POST {{baseUrl}}/users
+Content-Type: application/json
+
+{
+  "name":"Bruno S. Duarte",
+  "email": "brunosduarte@dev.br",
+  "password": "123456"
+}
+
+### @queue
+GET {{baseUrl}}/queue
+
+### @/nodes/:url
+GET {{baseUrl}}/nodes/:url
