@@ -3,7 +3,7 @@
 ## RFs (Functional Requirements)
 
 - [x] Should be able to register;
-- [ ] Should be able to authenticate;
+- [x] Should be able to authenticate;
 - [ ] Should be able to obtain credentials from logged in user;
 - [ ] Should be able to obtain the check-ins count by logged user;
 - [ ] Should be able to obtain check-ins history;
