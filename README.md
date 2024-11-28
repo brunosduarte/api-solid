@@ -2,7 +2,7 @@
 
 ## RFs (Functional Requirements)
 
-- [ ] Should be able to register;
+- [x] Should be able to register;
 - [ ] Should be able to authenticate;
 - [ ] Should be able to obtain credentials from logged in user;
 - [ ] Should be able to obtain the check-ins count by logged user;
@@ -14,7 +14,7 @@
 
 ## RNs (Business Rules)
 
-- [ ] The user can't register with a duplicate email address;
+- [x] The user can't register with a duplicate email address;
 - [ ] The user can't make two check-ins in a same day;
 - [ ] The user can't make the check-in if is >100m away from the gym place;
 - [ ] The check-in can't be validated until the 20 minutes after the creation;
@@ -24,7 +24,7 @@
 
 ## RNFs (Not Functional Requirements)
 
-- [ ] The password of the user must be encrypted;
-- [ ] The application data must be persisted in a PostgreSQL database;
+- [x] The password of the user must be encrypted;
+- [x] The application data must be persisted in a PostgreSQL database;
 - [ ] All data lists must be paginated by the 20 items per page;
 - [ ] The user must be identified by a JWT;# api-solid
