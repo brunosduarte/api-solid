@@ -4,7 +4,7 @@
 
 - [x] Should be able to register;
 - [x] Should be able to authenticate;
-- [ ] Should be able to obtain credentials from logged in user;
+- [x] Should be able to obtain credentials from logged in user;
 - [ ] Should be able to obtain the check-ins count by logged user;
 - [ ] Should be able to obtain check-ins history;
 - [ ] Should be able to search for the nearest gym;
