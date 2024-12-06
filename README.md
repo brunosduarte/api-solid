@@ -8,7 +8,7 @@
 - [x] Should be able to obtain the check-ins count by logged user;
 - [x] Should be able to obtain check-ins history;
 - [ ] Should be able to search for the nearest gym;
-- [ ] Should be able to search gyms by the name;
+- [x] Should be able to search gyms by the name;
 - [x] Should be able to check-in in a gym place;
 - [ ] Should be able to validate the check-in of an user;
 - [x] Should be able to register a gym place;
