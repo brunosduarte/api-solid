@@ -15,7 +15,7 @@
 ## RNs (Business Rules)
 
 - [x] The user can't register with a duplicate email address;
-- [ ] The user can't make two check-ins in a same day;
+- [x] The user can't make two check-ins in a same day;
 - [ ] The user can't make the check-in if is >100m away from the gym place;
 - [ ] The check-in can't be validated until the 20 minutes after the creation;
 - [ ] The check-in only can be validated by administrators;
