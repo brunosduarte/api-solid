@@ -11,6 +11,7 @@
 - [ ] Should be able to search gyms by the name;
 - [x] Should be able to check-in in a gym place;
 - [ ] Should be able to validate the check-in of an user;
+- [x] Should be able to register a gym place;
 
 ## RNs (Business Rules)
 
