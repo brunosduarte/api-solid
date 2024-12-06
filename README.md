@@ -9,7 +9,7 @@
 - [ ] Should be able to obtain check-ins history;
 - [ ] Should be able to search for the nearest gym;
 - [ ] Should be able to search gyms by the name;
-- [ ] Should be able to check-in in a gym place;
+- [x] Should be able to check-in in a gym place;
 - [ ] Should be able to validate the check-in of an user;
 
 ## RNs (Business Rules)
