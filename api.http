@@ -1,6 +1,16 @@
 @baseUrl = http://localhost:3333
 
-### Post
+### Authenticate
+# @name authenticated
+POST {{baseUrl}}/sessions
+Content-Type: application/json
+
+{
+  "email": "brunosdua@dev.br",
+  "password": "123456"
+}
+
+### Create user
 POST {{baseUrl}}/users
 Content-Type: application/json
 
@@ -10,8 +20,11 @@ Content-Type: application/json
   "password": "123456"
 }
 
-### @queue
-GET {{baseUrl}}/queue
+### Profile
+@token = {{authenticated.response.body.token}}
+GET {{baseUrl}}/me HTTP/1.1
+Authorization: Bearer {{token}}
 
 ### @/nodes/:url
 GET {{baseUrl}}/nodes/:url
+
