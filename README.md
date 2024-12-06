@@ -16,7 +16,7 @@
 
 - [x] The user can't register with a duplicate email address;
 - [x] The user can't make two check-ins in a same day;
-- [ ] The user can't make the check-in if is >100m away from the gym place;
+- [x] The user can't make the check-in if is >100m away from the gym place;
 - [ ] The check-in can't be validated until the 20 minutes after the creation;
 - [ ] The check-in only can be validated by administrators;
 - [ ] The gym place only can be registered by administrators;
@@ -27,4 +27,4 @@
 - [x] The password of the user must be encrypted;
 - [x] The application data must be persisted in a PostgreSQL database;
 - [ ] All data lists must be paginated by the 20 items per page;
-- [ ] The user must be identified by a JWT;# api-solid
+- [ ] The user must be identified by a JWT;
