@@ -18,7 +18,7 @@
 - [x] The user can't register with a duplicate email address;
 - [x] The user can't make two check-ins in a same day;
 - [x] The user can't make the check-in if is >100m away from the gym place;
-- [ ] The check-in can't be validated until the 20 minutes after the creation;
+- [x] The check-in can't be validated until the 20 minutes after the creation;
 - [ ] The check-in only can be validated by administrators;
 - [ ] The gym place only can be registered by administrators;
 
