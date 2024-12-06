@@ -1,0 +1,4 @@
+```
+SELECT NAMES FROM gyms
+WHERE NAMES LIKE '%Gold%';
+```
