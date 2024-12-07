@@ -21,12 +21,11 @@ describe('Refresh Token (e2e)', () => {
 
     const cookies = authResponse.get('Set-Cookie')
 
-    // adicionei esse expect
     expect(cookies).toBeDefined()
 
     const response = await request(app.server)
       .patch('/token/refresh')
-      .set('Cookie', cookies as string[]) // seta o tipo para string[]
+      .set('Cookie', cookies as string[])
       .send()
 
     expect(response.statusCode).toEqual(200)

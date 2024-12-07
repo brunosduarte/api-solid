@@ -8,7 +8,7 @@ Content-Type: application/json
 
 {
   "name":"Bruno S. Duarte",
-  "email": "brunosdua@dev.br",
+  "email": "brunosdua@dev.bru",
   "password": "123456"
 }
 
@@ -18,7 +18,7 @@ POST {{baseUrl}}/sessions
 Content-Type: application/json
 
 {
-  "email": "brunosdua@dev.br",
+  "email": "brunosdua@dev.bru",
   "password": "123456"
 }
 
@@ -28,6 +28,16 @@ Content-Type: application/json
 ### Profile
 GET {{baseUrl}}/me HTTP/1.1
 Authorization: Bearer {{token}}
+
+
+### Refresh token
+PATCH {{baseUrl}}/token/refresh
+Content-Type: application/json
+
+{
+  "email": "brunosdua@dev.bru",
+  "password": "123456"
+}
 
 
 ### Create gym
