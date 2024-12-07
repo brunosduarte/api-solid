@@ -29,6 +29,19 @@ Content-Type: application/json
 GET {{baseUrl}}/me HTTP/1.1
 Authorization: Bearer {{token}}
 
+
+### Create gym
+POST {{baseUrl}}/gyms
+Content-Type: application/json
+
+{
+  "title": "JavaScript Gym",
+  "description": "Work on your JavaScript skills",
+  "phone": "+5511999999999",
+  "latitude": "123456",
+  "longitude": "123456",
+}
+
 ### @/nodes/:url
 GET {{baseUrl}}/nodes/:url
 
