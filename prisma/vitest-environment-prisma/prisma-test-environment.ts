@@ -19,7 +19,7 @@ function generateDatabaseURL(schema: string) {
   return url.toString()
 }
 
-export default <Environment>{
+export default <Environment>(<unknown>{
   name: 'prisma',
   transformMode: 'ssr',
   async setup() {
@@ -35,9 +35,8 @@ export default <Environment>{
         await prisma.$executeRawUnsafe(
           `DROP SCHEMA IF EXISTS "${schema}" CASCADE`,
         )
-
         await prisma.$disconnect()
       },
     }
   },
-}
+})
