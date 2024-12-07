@@ -35,11 +35,11 @@ POST {{baseUrl}}/gyms
 Content-Type: application/json
 
 {
-  "title": "JavaScript Gym",
-  "description": "Work on your JavaScript skills",
-  "phone": "+5511999999999",
-  "latitude": "123456",
-  "longitude": "123456",
+  "title": "TypeScript Gym",
+  "description": "Some description.",
+  "phone": "1199999999",
+  "latitude": -27.2092052,
+  "longitude": -49.6401091,
 }
 
 ### @/nodes/:url
