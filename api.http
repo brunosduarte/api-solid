@@ -8,7 +8,7 @@ Content-Type: application/json
 
 {
   "name":"Bruno S. Duarte",
-  "email": "brunosdua@dev.bru",
+  "email": "brunosd@dev.br",
   "password": "123456"
 }
 
@@ -18,7 +18,7 @@ POST {{baseUrl}}/sessions
 Content-Type: application/json
 
 {
-  "email": "brunosdua@dev.bru",
+  "email": "brunosd@dev.br",
   "password": "123456"
 }
 
@@ -35,7 +35,7 @@ PATCH {{baseUrl}}/token/refresh
 Content-Type: application/json
 
 {
-  "email": "brunosdua@dev.bru",
+  "email": "brunosd@dev.br",
   "password": "123456"
 }
 

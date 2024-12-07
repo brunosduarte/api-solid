@@ -19,8 +19,8 @@
 - [x] The user can't make two check-ins in a same day;
 - [x] The user can't make the check-in if is >100m away from the gym place;
 - [x] The check-in can't be validated until the 20 minutes after the creation;
-- [ ] The check-in only can be validated by administrators;
-- [ ] The gym place only can be registered by administrators;
+- [x] The check-in only can be validated by administrators;
+- [x] The gym place only can be registered by administrators;
 
 
 ## RNFs (Not Functional Requirements)
@@ -28,4 +28,4 @@
 - [x] The password of the user must be encrypted;
 - [x] The application data must be persisted in a PostgreSQL database;
 - [x] All data lists must be paginated by the 20 items per page;
-- [ ] The user must be identified by a JWT;
+- [x] The user must be identified by a JWT;
