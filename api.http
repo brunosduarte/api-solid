@@ -18,7 +18,7 @@ POST {{baseUrl}}/sessions
 Content-Type: application/json
 
 {
-  "email": "brunosd@dev.br",
+  "email": "brunosdua@dev.bru",
   "password": "123456"
 }
 
@@ -29,19 +29,19 @@ Content-Type: application/json
 GET {{baseUrl}}/me HTTP/1.1
 Authorization: Bearer {{token}}
 
-
 ### Refresh token
 PATCH {{baseUrl}}/token/refresh
 Content-Type: application/json
+Authorization: Bearer {{token}}
 
 {
   "email": "brunosd@dev.br",
   "password": "123456"
 }
 
-
 ### Create gym
 POST {{baseUrl}}/gyms
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {
@@ -52,6 +52,4 @@ Content-Type: application/json
   "longitude": -49.6401091,
 }
 
-### @/nodes/:url
-GET {{baseUrl}}/nodes/:url
 
