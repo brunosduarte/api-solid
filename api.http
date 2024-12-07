@@ -1,6 +1,7 @@
 ### REST Client for Visual Studio Code "ext install humao.rest-client" ###
 
-@baseUrl = http://localhost:3333
+###@baseUrl = http://localhost:3333
+@baseUrl = https://api-solid-p4o1.onrender.com/
 
 ### Create user
 POST {{baseUrl}}/users
